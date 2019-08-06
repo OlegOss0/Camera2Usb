@@ -150,9 +150,9 @@ class Camera2ApiManager {
                 ViewGroup.LayoutParams lp2 = fl2.getLayoutParams();
 
                 fl1.setLayoutParams(lp2);
-                //fl2.setLayoutParams(lp1);
-                fl2.setVisibility(View.GONE);
+                fl2.setLayoutParams(lp1);
 
+                fl1.setForegroundGravity(1);
             }
         });
 
